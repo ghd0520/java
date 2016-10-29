@@ -1,0 +1,39 @@
+import java.util.*;
+
+class codeup {
+	static int count=0;
+	
+	static void ubaksoo(int i){
+		count++;
+		if(i==1){
+			return;
+		}
+		else if(i%2==0){
+			ubaksoo(i/2);
+		}
+		else{
+			ubaksoo((3*i)+1);
+		}
+		return;
+	}
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int n = scan.nextInt();
+		int m = scan.nextInt();
+		int tempi=0;
+		int tempcount=0;
+		for(int i=n;i<=m;i++){
+			ubaksoo(i);
+			if(tempcount<count){
+				tempcount=count;
+				tempi=i;
+			}
+			count=0;
+		}
+		System.out.println(tempi+" "+tempcount);
+		
+
+	}
+
+}

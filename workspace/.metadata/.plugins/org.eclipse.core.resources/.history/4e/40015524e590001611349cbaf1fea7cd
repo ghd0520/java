@@ -1,0 +1,31 @@
+package kr.hs.dgsw.ch11;
+
+public class StringInstance {
+
+	public static void main(String[] args) {
+		
+		String str = "My name is JintaekHong";
+		int strLength = str.length();
+		System.out.println(strLength);
+		System.out.println("My name is JintaekHong".length());
+		
+		String str1 = "My String";
+		String str2 = "My String";
+		String str3 = "Your String";
+		
+		if(str1 == str2){
+			System.out.println("동일한 인스턴스");
+		}
+		else{
+			System.out.println("다른 인스턴스");
+		}
+		if(str2 == str3){
+			System.out.println("동일한 인스턴스");
+		}
+		else{
+			System.out.println("다른 인스턴스");
+		}
+		
+	}
+
+}

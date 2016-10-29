@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthSpinnerUI"/>
+<fullyQualifiedTypeName name="kr.hs.dgsw.ch03.TypeCast"/>
+<fullyQualifiedTypeName name="kr.hs.dgsw.ch08.area.Circle"/>
+<fullyQualifiedTypeName name="kr.hs.dgsw.ch08.perimeter.Circle"/>
+<fullyQualifiedTypeName name="kr.hs.dgsw.ch09.aaa.AAA"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="kr.hs.dgsw.ch10.SimpleNumber"/>
+<fullyQualifiedTypeName name="kr.hs.dgsw.ch14.BusinessMan"/>
+<fullyQualifiedTypeName name="kr.hs.dgsw.ch15.MachineGun"/>
+</qualifiedTypeNameHistroy>
